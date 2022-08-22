@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(43, 162, 192, 0.726); */
+    background-image: linear-gradient(rgba(104, 58, 183, 0.822),rgba(155, 162, 168, 0.5)),url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__340.png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.title{
+    width: 80%;
+    display: inline-block;
+    margin: 150px auto 10;
+    color: rgba(12, 8, 4, 0.911);
+    text-align: center;
+}
+.title h1{
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+.title p{
+    font-size: 23px;
+    font-family: 'Caveat', cursive;;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    margin-top: 30px;
+    /* font-weight : 700; */
+}
+.row{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.col{
+    flex-basis: 22%;
+    text-align: center;
+    color: rgb(209, 113, 113);
+}
+.counter-box{
+    width: 100%;
+    height: 100%;
+    background: rgb(212, 200, 200);
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px  #11a9cfe1;
+}
+h2,span{
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 40px;
+    color: #000;
+}
+.counter-box .fa{
+    font-size: 40px;
+    color: #f02b11;
+    display: block;
+}
+
+
+#particles-js{ 
+    position:absolute; 
+    width: 100%; 
+    height: 100%; 
+    background-color: #070516; 
+    background-image: url(""); 
+    background-repeat: no-repeat; 
+    background-size: cover; background-position: 100% 100%; 
+} /* ---- stats.js ---- */
+
+.count-particles{
+     background: #000022;
+      position: absolute; 
+      top: 48px; left: 0;
+       width: 80px;
+        color: #13E8E9; 
+        font-size: .8em;
+         text-align: left;
+          text-indent: 4px; 
+          line-height: 14px; 
+          padding-bottom: 2px; 
+          font-family: Helvetica, Arial, sans-serif; 
+          font-weight: bold; 
+        } 
+        
+        
+        .js-count-particles{ 
+            font-size: 1.1em;
+         } 
+         
+         #stats, .count-particles{ 
+            /* -webkit-user-select: none; */
+             margin-top: 5px;
+              margin-left: 5px;
+             } 
+             
+             #stats{ 
+                border-radius: 3px 3px 0 0; 
+                overflow: hidden; 
+            } 
+
+
+.count-particles{
+     border-radius: 0 0 3px 3px;
+     }
+
+
+
+
+
+
+
+
